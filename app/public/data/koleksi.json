@@ -1,10 +1,86 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
-  }
+    "judul": "Lari (8km/jam)",
+    "kategori": "Kardio",
+    "tanggal": "20-10-2026",
+    "durasi": "30 menit",
+    "kalori": "350 kcal"
+  },
+
+  {
+    "id": "2",
+    "judul": "Berenang(Gaya Bebas)",
+    "kategori": "Akuatik",
+    "tanggal": "21-10-2026",
+    "durasi": "30 menit",
+    "kalori": "300 kcal"
+  },
+
+   {
+    "id": "3",
+    "judul": "Bersepeda",
+    "kategori": "Kardio",
+    "tanggal": "22-10-2026",
+    "durasi": "30 menit",
+    "kalori": "280 kcal"
+   },
+   
+   {
+    "id": "4",
+    "judul": "Lompat Tali",
+    "kategori": "Kardio",
+    "tanggal": "24-10-2026",
+    "durasi": "30 menit",
+    "kalori": "400 kcal"
+   },
+   
+   {
+    "id": "5",
+    "judul": "Sepak Bola",
+    "kategori": "Endurance",
+    "tanggal": "25-10-2026",
+    "durasi": "30 menit",
+    "kalori": "350 kcal"
+   },
+   {
+    "id": "6",
+    "judul": "Bulu Tangkis",
+    "kategori": "Endurance",
+    "tanggal": "26-10-2026",
+    "durasi": "30 menit",
+    "kalori": "250 kcal"
+   },
+   {
+    "id": "7",
+    "judul": "Angkat Beban",
+    "kategori": "Kekuatan",
+    "tanggal": "27-10-2026",
+    "durasi": "30 menit",
+    "kalori": "200 kcal"
+   },
+   {
+    "id": "8",
+    "judul": "Yoga",
+    "kategori": "Fleksibilitas",
+    "tanggal": "28-10-2026",
+    "durasi": "30 menit",
+    "kalori": "160 kcal"
+   },
+    {
+      "id": "9",
+      "judul": "Basket",
+      "kategori": "Endurance",
+      "tanggal": "29-10-2026",
+      "durasi": "30 menit",
+      "kalori": "320 kcal"
+    },
+    {
+      "id": "10",
+      "judul": "HIIT (High-Intensity Interval Training)",
+      "kategori": "Kardio",
+      "tanggal": "30-10-2026",
+      "durasi": "30 menit",
+      "kalori": "400 kcal"
+    }
 ]
