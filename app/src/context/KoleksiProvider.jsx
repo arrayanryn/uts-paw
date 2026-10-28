@@ -1,8 +1,8 @@
-import {useEfffect,useState} from "react";
+import {useEffect,useState} from "react";
 import {KoleksiContext} from "./KoleksiContext";
 import useLocalStorage from "../hooks/useLocalStorage";
 
-export default function KoleksiProvider ({children}){
+export function KoleksiProvider ({children}){
     const[items,setItems]=useLocalStorage("uts-paw-koleksi",null)
     const[loading,setLoading]=useState(items===null)
     const[error,setError]=useState(null)
@@ -11,7 +11,7 @@ export default function KoleksiProvider ({children}){
         if(items !== null) return
         async function muat(){
             try{
-                const res=await fetch ('${import.meta.env.BASE_URL}data/koleksi.json')
+                const res=await fetch (`${import.meta.env.BASE_URL}data/koleksi.json`)
                 if (!res.ok) throw new Error(`gagal memuat data(status: ${res.status})`)
                 setItems(await res.json())
             }

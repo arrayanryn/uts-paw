@@ -1,9 +1,9 @@
-import {link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 export default function KartuItems({item}) {
     const {id,judul,kategori,tenggat}=item
     return (
-        <article classname="kartu">
+        <article className="kartu">
             <h3>
                 <Link to={'/koleksi/${id}'}>{judul}</Link>/
             </h3>

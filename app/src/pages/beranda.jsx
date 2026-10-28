@@ -1,6 +1,6 @@
-import {link} from 'react-router-dom'
-import useKoleksi from '../hooks/useKoleksi.jsx'
-import mahasiswa from '.../mahasiswa.json';
+import {Link} from 'react-router-dom'
+import useKoleksi from '../hooks/useKoleksi.js'
+import mahasiswa from '../../mahasiswa.json';
  
 export default function Beranda() {
     const {items,loading}=useKoleksi()
