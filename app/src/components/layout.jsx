@@ -26,7 +26,7 @@ export default function Layout(){
             <main className="isi">
                 <Outlet/>
             </main>
-            <footer className="kaki">ujian Tengah Semester Pengembangan aplikasi web</footer>
+            <footer className="kaki">Ujian Tengah Semester Pengembangan Aplikasi Web </footer>
                 <p>&copy; 2023 Daftar Tugas. All rights reserved.</p>
         </div>
 

@@ -3,6 +3,8 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: #d8d7d7;
+  align-content: center;
+  width: 100%;
 }
 
 .kepala {
@@ -13,7 +15,22 @@
   background-color: green;
   color: #ffff;
 }
+.isi{
+  flex:1;
+  width: 100%;
+}
 
+.kaki {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: auto;
+  width: 100%;
+}
+
+.kaki p{
+  text-align: center;
+  padding :1rem;
+}
 .menu {
   display: flex;
   gap: 1rem;
@@ -119,6 +136,11 @@
   gap: 1rem;
   
 }
+.daftar-kartu:hover{
+  color:black;
+  border:1px green;
+  
+}
 
 .daftar-kartu a {
   text-decoration: none !important;
@@ -132,6 +154,9 @@
   background-color: #ffff;
 }
 
+.kartu:hover{
+  border-color:1px #070707;
+}
 .kartu h3 {
   margin: 0 0 0.25rem;
   font-size: 1.05rem;
@@ -140,6 +165,7 @@
 .kartu p {
   margin: 0;
   color: #57606a;
+  font-style:italic;
 }
 
 .alat-koleksi {
@@ -147,7 +173,7 @@
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-bottom: 1rem;
-  items-align: center;
+  align-items: center;
 }
 
 .alat-koleksi input,
