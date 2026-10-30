@@ -13,9 +13,11 @@ export default function Beranda() {
             {loading ? (
                 <p>Memuat Ringkasan...</p>
             ) : (
-                <p>ada {items.length} Tugas dalam {jumlahKategori} kategori.</p>
+                <p>ada {items.length} Olahraga dalam {jumlahKategori} kategori.</p>
             )}
-            <Link to="/koleksi">Lihat semua Ringkasan</Link>
+            <Link to="/koleksi" className="tombol-koleksi">
+                Lihat semua Latihan
+            </Link>
         </section>
     )
 }   

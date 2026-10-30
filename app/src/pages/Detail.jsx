@@ -36,7 +36,7 @@ export default function Detail() {
         <dd>{item.tanggal}</dd>
         <dt>Durasi</dt>
         <dd>{item.durasi}</dd>
-        <dt>Kalori</dt>
+        <dt>Kalori Terbakar</dt>
         <dd>{item.kalori}</dd>
       </dl>
       <div className="aksi">

@@ -42,9 +42,9 @@
 }
 
 .tabel-data thead tr th {
-    Background-color: #59a4fe;
+    Background-color: green;
 }
 
 .tabel-data tfoot tr{
-    Background-color: #59a4fe;
+    Background-color: green;
 }

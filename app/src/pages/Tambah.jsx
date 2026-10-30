@@ -44,7 +44,7 @@ export default function Tambah() {
         <input 
           id="durasi" name="durasi" type="number" placeholder="30"  value={form.durasi} onChange={ubah}
         />
-      <label htmlFor="kalori">Kalori (kcal)</label>
+      <label htmlFor="kalori">Kalori Terbakar (kcal)</label>
         <input 
           id="kalori" name="kalori" type="number" placeholder="100"  value={form.kalori} onChange={ubah}
         />
@@ -53,7 +53,6 @@ export default function Tambah() {
       <input id="tanggal" name="tanggal" type="date" value={form.tanggal} onChange={ubah} />
 
       <button type="submit">Simpan</button>
-      <p>Isi state saat ini: {JSON.stringify(form)}</p>
     </form>
   )
 }
